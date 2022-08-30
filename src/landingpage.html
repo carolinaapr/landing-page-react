@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="./landingpage.css">
+    <link href='https://fonts.googleapis.com/css?family=Rammetto One' rel='stylesheet'>
+    <!--Adding bootstrap CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+   
+    <title>Challenge Kelompok 2</title>
+</head>
+<style>
+    #grad1 {
+      height: 10px;
+      background-color: #004e92; /* For browsers that do not support gradients */
+      background-image: linear-gradient(to right, #0F2027,#004e92);
+    }
+
+    #navbarSupportedContent{
+      background-color: #004e92;
+    }
+
+    #carouselExampleIndicators{
+        width: 900px;
+        margin: 0 auto;
+        min-width: 100%;
+        min-height: 100%;
+        max-width: 100%;
+        max-height: fit-content;
+        padding: 0% ;
+        margin-top: 0%;
+     }
+
+    #myVideo {
+    position: flex;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    }
+
+    #gameshighlight {
+      color: white;
+      text-align: center;
+    }
+
+    #contactus {
+      color: white;
+      text-align: center;
+    }
+    #contact-form{
+      padding-left: 200px;
+      color: white;
+      padding-bottom: 25px;
+    }
+</style>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50" id="grad1">
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="./Asset/angka2.png" width="30" height="30"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" id="opsinavbar">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#" id="opsinavbar">Games <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="opsinavbar" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Accounts
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Login</a>
+                <a class="dropdown-item" href="#">Sign Up</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#" id="opsinavbar">Leaderboards <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#" id="opsinavbar">Career <span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+    </div>
+
+    <!--Add video background-->
+    <center>
+        <video autoplay muted loop id="myVideo">
+            <source src="./Asset/mylivewallpapers.com-Cyborg-Warrior-Sword.mp4" type="video/mp4">
+          </video>
+          <div class="teamtwo">
+            <h1>TeamTwo Entertaiment</h1>
+            <p>Play fun and challenging games with your friends</p>
+            <a href="#" cl>Play now!</a>
+        </div>
+    </center>
+    <div class="dropdown-divider"></div>
+    <h1 class="carousel-divider" id="gameshighlight">GAMES HIGHLIGHT</h1>
+
+    <!--input carousel-slideshow-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./Asset/stray.jpg" alt="stray">
+          <div class="carousel-caption d-none d-md-block">
+            <h5> S T R A Y</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore excepturi esse consequuntur. Molestias excepturi omnis quos non consectetur perspiciatis hic repellendus odit ipsum animi, accusantium quaerat! Asperiores tempora alias optio.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./Asset/rockpaperscissor.png" alt="rock paper scissor">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>ROCK PAPER SCISSOR</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et voluptate sit iusto aut voluptatum dolores asperiores possimus repellendus fugit adipisci dolor quo esse, nostrum eligendi. Repudiandae illum ducimus iure eaque.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./Asset/FORTNITE.png" alt="fortnite">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>F O R T N I T E</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto eos praesentium vitae incidunt, deleniti nobis quas unde cupiditate suscipit illum quaerat reprehenderit dolore neque explicabo itaque atque at quam. Quisquam?</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    
+    <div class="dropdown-divider"></div>
+    <h2 style="text-align: center; color: whitesmoke;";>Our services</h2>
+
+
+    <!--adding layout and colum-->
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./Asset/card-game tournaments.jpg" alt="eport">
+                <div class="card-body">
+                  <h5>E-Sport Competition</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./Asset/card-gam community.jpg" alt="game community">
+                <div class="card-body">
+                  <h5>Biggest Community</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./Asset/card-game streaming.jpg" alt="streaming">
+                <div class="card-body">
+                  <h5>Live stream</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>    
+          </div>
+        </div>
+      </div>
+    <!--Contact US-->
+    <section>
+  <h2 class="h1-responsive font-weight-bold text-center my-4" id="contactus">Contact us</h2>
+  <p class="text-center w-responsive mx-auto mb-5" id="contactus">Do you have any questions for partnership and media? Please do not hesitate to contact us directly.</p>
+  <div class="row">
+      <div class="col-md-9 mb-md-0 mb-5">
+          <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control" id="contact-form">
+                          <label for="name" class="">Your name</label>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <input type="text" id="email" name="email" class="form-control">
+                          <label for="email" class="">Your email</label>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Subject</label>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Your message</label>
+                      </div>
+
+                  </div>
+              </div>
+          </form>
+          <div class="text-center text-md-left" id="contact-form">
+              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+          <div class="status"></div>
+      </div>
+      </div>
+  </div>
+</section>
+
+    <!--Input Footer-->
+    <section>
+    
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: #004e92; color: white;" >
+          © 2022 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">Team Two Entertaiment, all rights reserved</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>   
+</body>
+
+
