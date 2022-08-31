@@ -9,7 +9,7 @@ import carouselstray from "../Assets/carouselstray.jpg";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
+import { Button } from 'reactstrap';
 import Card from "react-bootstrap/Card";
 import cardscommunity from "../Assets/cardscommunity.jpg";
 import cardstournaments from "../Assets/cardsgametournaments.jpg";
@@ -119,6 +119,7 @@ export default function Landingpage() {
         </Container>
       </div>
       <div>
+        <h1 className="contactus">CONTACT US</h1>
         <form>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Name</Form.Label>
@@ -135,7 +136,7 @@ export default function Landingpage() {
             <Form.Label>Message</Form.Label>
             <Form.Control type="Message" placeholder="Enter your message" />
           </Form.Group>
-          <Button variant="primary" type="submit">
+          <Button variant="primary" type="submit" className="submitcontactus">
             Submit
           </Button>
         </form>

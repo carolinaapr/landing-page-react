@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'exo 2';
+    font-family: 'Exo', sans-serif;
 }
 
 .backgroundcolor {
@@ -34,6 +34,26 @@ video {
 
 #gameshighlight{
     text-align: center;
+
+}
+
+.cardtext{
+    color: black;
+    font-family: 'exo';
+}
+
+.contactus{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.mb-3{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.submitcontactus{
+    margin-left: 50px;
 }
 
 footer {
@@ -41,7 +61,3 @@ footer {
     bottom: 0;
 }
 
-.cardtext{
-    color: black;
-    font-family: 'exo';
-}
